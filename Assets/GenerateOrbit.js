@@ -18,13 +18,7 @@ var d : float;
 	GenerateOrbit();   
     	 
  }
- 
-// function FixedUpdate(){
-//	
-//	GenerateOrbit();
-//	
-// }
- 
+
  function GenerateOrbit(){
  
   	 // Figure out which range is best for BIG fractals  
@@ -69,6 +63,12 @@ var d : float;
     yield WaitForSeconds(5);
 	myParticleSystem.Clear();
  }
+ 
+ 
+ function differentiate(){
+ 
+ }
+ 
  
 
  
